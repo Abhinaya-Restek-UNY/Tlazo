@@ -1,0 +1,41 @@
+dependencies:
+  esp_Gamepad:
+    component_hash: edf87b90f52e2bef5b6d39525f6222674869648d62053902c1b7892f68e316f5
+    dependencies:
+    - git: https://github.com/Abhinaya-Restek-UNY/esp_PresistentConfig.git
+      name: esp_PresistentConfig
+    - name: idf
+      version: '>=4.4'
+    source:
+      git: https://github.com/Abhinaya-Restek-UNY/esp_Gamepad.git
+      path: .
+      type: git
+    version: 50f0fc1b7f48c61b08f9cf99c073fdfcd1bb0ced
+  esp_PWMManager:
+    component_hash: 63afe56089166624aa0c9df3c9307f9f20d2ec8a2945881487fa0f8a3e0cb7cc
+    dependencies: []
+    source:
+      git: https://github.com/Abhinaya-Restek-UNY/esp_PWMManager.git
+      path: .
+      type: git
+    version: 8cb9341f5efdd893ca2165cd6b3d97d16a0ce6ac
+  esp_PresistentConfig:
+    component_hash: b2746467eb1eac555f8b148804b226ac211c983b9e7c20e7ec3caa2cf085294d
+    dependencies: []
+    source:
+      git: https://github.com/Abhinaya-Restek-UNY/esp_PresistentConfig.git
+      path: .
+      type: git
+    version: d9934dc3c07e498f1e30828c709275eabe277387
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+direct_dependencies:
+- esp_Gamepad
+- esp_PWMManager
+- esp_PresistentConfig
+- idf
+manifest_hash: 01bc8899d612276b75598df7f5b8093e84dfa96c93c66bdad943670194471983
+target: esp32
+version: 2.0.0
