@@ -1,2 +1,3 @@
 idf_component_register(SRCS "PCA9685.cpp"
-                    INCLUDE_DIRS "include")
+                    INCLUDE_DIRS "include"
+                    REQUIRES I2CDevice)

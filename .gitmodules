@@ -4,3 +4,6 @@
 [submodule "external/mpu6050"]
 	path = external/mpu6050
 	url = https://github.com/Abhinaya-Restek-UNY/esp_mpu6050.git
+[submodule "components/STM32Portal/serialhub"]
+	path = components/STM32Portal/serialhub
+	url = git@github.com:Abhinaya-Restek-UNY/serial_hub.git
