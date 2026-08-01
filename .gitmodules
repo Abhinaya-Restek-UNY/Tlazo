@@ -3,7 +3,7 @@
 	url = https://github.com/ricardoquesada/bluepad32.git
 [submodule "external/mpu6050"]
 	path = external/mpu6050
-	url = https://github.com/Abhinaya-Restek-UNY/esp_mpu6050.git
+	url = https://github.com/Abhinaya-UNY/esp_mpu6050.git
 [submodule "components/STM32Portal/serialhub"]
 	path = components/STM32Portal/serialhub
-	url = git@github.com:Abhinaya-Restek-UNY/serial_hub.git
+	url = git@github.com:Abhinaya-UNY/serial_hub.git
